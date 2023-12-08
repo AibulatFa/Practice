@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Определение стиля для AppBarOverlay -->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <!-- Определение общей темы приложения -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Другие настройки вашей темы -->
+
+        <!-- Применение стиля AppBarOverlay для AppBarLayout -->
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+</resources>
